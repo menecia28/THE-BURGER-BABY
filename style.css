@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+img-src {
+
+margin: auto;
+}
+
+.body-home {
+    background-image:url('images/background-02-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.body-meals {
+   background-image:url('images/background-02-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*========== HOME PAGE ==========*/
+
+h1 {
+    text-align: center;
+    color: #0f03fc;
+    font-size: 50px;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #1b1c18;
+}
+
+/*========== HOME PAGE MENU ==========*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #075e0c;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+/*========== MENU PAGE ==========*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h2 {
+   font-weight: bold;
+   font-size: 20px;
+   color: #1a1a1a;
+   padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== MEALS DETAILS ==========*/
+
+#meals-details {
+     padding-top: 50px;
+}
+
+.meals-details img {
+    width: 600px ;
+    height: 350px ;
+    align-content: center;
+}
+
+.button{
+    display:block;
+    width: 20%;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 8px 0;
+}
+
